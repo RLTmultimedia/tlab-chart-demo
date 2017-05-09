@@ -1,0 +1,28 @@
+{
+  "name": "tlab-chart-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "html-minifier --minify-css --minify-js --collapse-whitespace --collapse-inline-tag-whitespace --remove-comments imports-vulcanized.html -o chart-min.html",
+    "vulcanize" : "vulcanize --inline-css --inline-scripts imports.html > imports-vulcanized.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/tlab-chart-demo.git"
+  },
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (traderslab.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandanand84/tlab-chart-demo/issues"
+  },
+  "homepage": "https://github.com/anandanand84/tlab-chart-demo#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "technicalindicators": "^0.2.25"
+  },
+  "devDependencies": {
+    "vulcanize": "^1.15.4"
+  }
+}

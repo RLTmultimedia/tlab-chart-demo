@@ -1,0 +1,35 @@
+{
+  "name": "tlab-chart-demo",
+  "homepage": "https://github.com/anandanand84/tlab-chart-demo",
+  "authors": [
+    "Anand Aravindan <anand.anand84@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "stock-data-provider": "^0.1.5",
+    "chart-view": "git@bitbucket.org:anand_aravindan/chart-view.git#v2"
+  },
+  "resolutions": {
+    "iron-flex-layout": "1.3.7",
+    "iron-icons": "^1.2.0",
+    "paper-dialog": "^1.1.0",
+    "paper-icon-button": "^1.0.0",
+    "paper-menu-button": "^1.5.2",
+    "polymer": "^1.6.0",
+    "iron-overlay-behavior": "^1.0.9",
+    "iron-a11y-keys-behavior": "^1.1.5",
+    "iron-iconset-svg": "^1.1.0",
+    "iron-ajax": "^1.4.3",
+    "paper-toast": "~1.3.0",
+    "paper-item": "~1.1.4"
+  }
+}

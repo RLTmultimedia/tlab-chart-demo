@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "stock-data-provider": "*",
-    "chart-view": "git@bitbucket.org:anand_aravindan/chart-view.git#d7d97dd"
+    "chart-view": "git@bitbucket.org:anand_aravindan/chart-view.git#v2"
   },
   "resolutions": {
     "iron-flex-layout": "1.3.7",
